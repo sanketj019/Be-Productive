@@ -7,12 +7,9 @@ It has four modules, like To-Do List, Social Media blocker, Stopwatch and Notes.
 <p align = "center">
  <img src="https://user-images.githubusercontent.com/68363290/134545843-de888481-d5ed-4215-966f-d9ba056e1074.JPG">
  </p>
- 
+ <br>
  <p align = "center">
- <img src="https://user-images.githubusercontent.com/68363290/134545917-7cc50ebf-12bc-4cf4-8c45-19356707fef9.JPG">
+ <img src="https://user-images.githubusercontent.com/68363290/134546606-803f4519-2686-4058-b7d7-3319cc6e5f02.JPG">
  </p>
 
- <p align = "center">
- <img src="https://user-images.githubusercontent.com/68363290/134545927-46b601ae-77ad-47ad-ae84-1e9c2781da0a.JPG">
- </p>
 
