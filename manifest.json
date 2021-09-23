@@ -1,0 +1,21 @@
+{
+    "manifest_version" : 2,
+    "name" : "Be Productive",
+    "description" : "Be fruitful",
+    "version" : "1.0.0",
+    "content_scripts" : [{
+        "matches":["<all_urls>"],
+        "js": ["todoJS.js", "stopwatchMain.js", "social.js"]
+    }],
+     "icons": { "48": "icon48.png", "128": "icon128.png" },
+    "browser_action":{
+        "default_icons":"logo.png",
+        "default_popup":"index.html"
+    },
+    "permissions": [
+        "https://www.youtube.com/*",
+        "https://www.facebook.com/*",
+        "https://www.netflix.com/*"
+      ],
+     "content_security_policy": "script-src 'self' https://example.com; object-src 'self'"
+}

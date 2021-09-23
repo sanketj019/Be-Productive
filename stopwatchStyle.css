@@ -1,0 +1,88 @@
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	margin: 100;
+}
+
+body{
+    height: 100%;
+    background-color:rgb(23, 41, 59);
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Hind', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 13vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.title{
+	color:yellow;
+	font-weight: 530;
+}
+
+.content{
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.btn{
+	padding: 0.5rem 1rem;
+	margin-top: 10px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.stop{
+	color: #E00;
+}
+
+#continue, .stop, #start{
+	display: none;
+}
+
+
+#seconds{
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #fff;
+	padding: 1rem;
+	font-size: 2rem;
+	color: white;
+}
+
+#seconds::placeholder{
+	color: #ddd;
+}
